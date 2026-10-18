@@ -1,0 +1,365 @@
+1
+00:00:01,100 --> 00:00:03,000
+Good morning, SpongeBob!
+早上好，海绵宝宝！
+
+2
+00:00:03,100 --> 00:00:03,900
+Morning, Patrick!
+早上好，派大星！
+
+3
+00:00:04,200 --> 00:00:05,800
+You here for your pre-lunch Krabby Patty?
+你是来吃午饭前的开胃蟹黄堡吗？
+
+4
+00:00:06,100 --> 00:00:07,700
+I'm getting two today.
+我今天要两个。
+
+5
+00:00:07,900 --> 00:00:10,900
+One for me and one for my friend.
+一个给我，一个给我朋友。
+
+6
+00:00:11,100 --> 00:00:13,000
+Oh, have I met this friend?
+哦，我见过这位朋友吗？
+
+7
+00:00:13,200 --> 00:00:14,900
+You know me, SpongeBob.
+你认识我啊，海绵宝宝。
+
+8
+00:00:17,400 --> 00:00:19,300
+Enjoy, Patrick's tummy.
+好好享用吧，派大星的肚子。
+
+9
+00:00:31,900 --> 00:00:33,500
+Thirteen, fourteen, fifteen...
+十三、十四、十五……
+
+10
+00:00:33,600 --> 00:00:36,800
+Hey, Mr. Krabs, I thought we got our tartar sauce delivery on Thursday.
+嘿，蟹老板，我记得塔塔酱是周四送货吧？
+
+11
+00:00:36,900 --> 00:00:38,900
+Tartar...
+塔塔……
+
+12
+00:00:39,400 --> 00:00:40,100
+Sauce?
+……酱？
+
+13
+00:00:40,300 --> 00:00:41,400
+Bull's-eye!
+正中靶心！
+
+14
+00:00:44,600 --> 00:00:45,600
+Plankton!
+痞老板！
+
+15
+00:00:46,600 --> 00:00:48,900
+So it's a food fight he wants, eh?
+这么说他是想打一场食物仗，是吧？
+
+16
+00:00:49,100 --> 00:00:50,900
+Welcome to Air Plankton.
+欢迎乘坐“痞老板航空”。
+
+17
+00:00:51,100 --> 00:00:55,600
+Please put your seat backs and tray tables up as we're now approaching our final destination.
+请收起座椅靠背和小桌板，我们即将抵达最终目的地。
+
+18
+00:00:56,400 --> 00:01:01,600
+Okay, Patrick, load the potatoes!
+好了派大星，装土豆！
+
+19
+00:01:02,600 --> 00:01:04,000
+Mashed or scalloped, sir?
+要土豆泥还是土豆片，长官？
+
+20
+00:01:04,100 --> 00:01:05,700
+No, Patrick. Raw.
+不，派大星。生的。
+
+21
+00:01:06,000 --> 00:01:06,900
+Yes, sir!
+是，长官！
+
+22
+00:01:08,100 --> 00:01:09,400
+Locked and loaded!
+装填完毕！
+
+23
+00:01:10,600 --> 00:01:15,200
+Don't worry, little formula, you'll be safe in this, uh, safe.
+别担心，小配方，你在这个……呃……保险箱里很安全。
+
+24
+00:01:17,400 --> 00:01:18,200
+Fire!
+开火！
+
+25
+00:01:21,900 --> 00:01:23,100
+Potatoes?
+土豆？
+
+26
+00:01:25,400 --> 00:01:26,200
+He's closing in!
+他逼近了！
+
+27
+00:01:27,000 --> 00:01:29,600
+I think we have a few minutes before he gets here.
+我看还有几分钟他才会到。
+
+28
+00:01:31,500 --> 00:01:32,700
+He's right on top of us!
+他已经到头顶了！
+
+29
+00:01:37,000 --> 00:01:39,600
+Hey, it's raining fries!
+嘿，下薯条了！
+
+30
+00:01:40,100 --> 00:01:43,600
+It's gonna take a lot more than potatoes to bring this baby down!
+这点土豆可打不下我这架宝贝飞机！
+
+31
+00:01:46,400 --> 00:01:47,800
+Or maybe not.
+呃……好像也不一定。
+
+32
+00:01:53,500 --> 00:01:56,800
+Wait a minute, Patrick. Look! He's got a tank!
+等等，派大星，你看！他有坦克！
+
+33
+00:02:02,000 --> 00:02:05,800
+Well, Krabs, you're certainly in a pickle now!
+怎么样蟹老板，你现在可真是“泡”在酸黄瓜里了！
+
+34
+00:02:16,500 --> 00:02:18,900
+Hey, it's raining pickles!
+嘿，下酸黄瓜了！
+
+35
+00:02:20,000 --> 00:02:23,000
+Now it's raining...
+现在下的是……
+
+36
+00:02:23,100 --> 00:02:24,200
+Tanks.
+……坦克。
+
+37
+00:02:24,600 --> 00:02:25,700
+You're welcome!
+不用谢！
+
+38
+00:02:29,400 --> 00:02:30,500
+Finland.
+芬兰。
+
+39
+00:02:35,300 --> 00:02:36,600
+Your order, sir!
+您的订单，长官！
+
+40
+00:02:36,700 --> 00:02:41,600
+I'll have two Krabby Patties—extra ketchup, extra mustard, and hold the mayo.
+我要两个蟹黄堡——多加番茄酱、多加芥末，不要蛋黄酱。
+
+41
+00:02:41,800 --> 00:02:42,800
+Wrong channel!
+打错频道了！
+
+42
+00:02:43,300 --> 00:02:44,500
+Your order, sir!
+您的订单，长官！
+
+43
+00:02:44,600 --> 00:02:47,800
+Extra ketchup! Extra mustard! Hold the mayo!
+多加番茄酱！多加芥末！不要蛋黄酱！
+
+44
+00:02:48,400 --> 00:02:49,400
+Yes, sir!
+是，长官！
+
+45
+00:02:49,800 --> 00:02:52,300
+Extra ketchup! Extra mustard!
+多加番茄酱！多加芥末！
+
+46
+00:02:53,000 --> 00:02:54,900
+Hold the mayo!
+抱住蛋黄酱！
+
+47
+00:02:56,200 --> 00:02:58,300
+Unleash the condiments!
+释放调料！
+
+48
+00:02:58,400 --> 00:03:00,000
+With relish!
+再加点调味酱！
+
+49
+00:03:08,800 --> 00:03:10,700
+Excuse me!
+不好意思！
+
+50
+00:03:18,500 --> 00:03:20,600
+Hello? Hello?
+喂？喂？
+
+51
+00:03:21,000 --> 00:03:22,600
+Guess y'all don't want my money.
+看来你们不想要我的钱啊。
+
+52
+00:03:22,700 --> 00:03:23,200
+Money?
+钱？
+
+53
+00:03:23,400 --> 00:03:24,600
+Thank you! Come again!
+谢谢！欢迎再来！
+
+54
+00:03:31,000 --> 00:03:34,100
+I can't hold the mayo any longer!
+我快抱不住这罐蛋黄酱了！
+
+55
+00:03:39,500 --> 00:03:43,200
+Mayo? Well, it's going to take a lot more than mayo to stop—
+蛋黄酱？哼，这点蛋黄酱可拦不住——
+
+56
+00:03:46,400 --> 00:03:49,000
+Now what?
+现在怎么办？
+
+57
+00:03:50,100 --> 00:04:03,600
+Uhh... I just remembered! I don't work for Mr. Krabs.
+呃……我想起来了！我不给蟹老板打工了。
+
+58
+00:04:04,300 --> 00:04:10,200
+Robot! Robot! ROBOT! GIANT ROBOT! Robot! Robot!
+机器人！机器人！机器人！巨型机器人！机器人！机器人！
+
+59
+00:04:10,400 --> 00:04:14,200
+Mr. Krabs! Plankton's here and he's got a giant robot!
+蟹老板！痞老板来了，他还有个巨型机器人！
+
+60
+00:04:14,400 --> 00:04:15,800
+Quick, boy! Bar the door!
+快，孩子！把门堵上！
+
+61
+00:04:16,400 --> 00:04:17,300
+Got it!
+堵好了！
+
+62
+00:04:27,300 --> 00:04:31,400
+I'll take one secret formula... to go.
+我要一份秘方……打包带走。
+
+63
+00:04:43,500 --> 00:04:45,500
+Oh, barnacles! I'm out of gas?
+哦，糟了！我没油了？
+
+64
+00:04:48,100 --> 00:04:50,000
+Well, I'm not through yet.
+我还没完呢。
+
+65
+00:04:50,100 --> 00:04:53,400
+I've got something that will make you hand over that formula.
+我有样东西能让你乖乖交出配方。
+
+66
+00:04:54,000 --> 00:04:56,200
+Something you can't resist.
+一样你无法抗拒的东西。
+
+67
+00:04:58,600 --> 00:04:59,600
+Money!
+钱！
+
+68
+00:04:59,800 --> 00:05:00,800
+Yes.
+没错。
+
+69
+00:05:01,100 --> 00:05:03,800
+That's... that's... that's impossible!
+这……这……这不可能！
+
+70
+00:05:04,600 --> 00:05:07,600
+Well, it was full of money just last week.
+呃，上周里面还装满了钱呢。
+
+71
+00:05:08,000 --> 00:05:11,200
+And then I bought that airplane and built that tank—
+然后我买了那架飞机，还造了那辆坦克——
+
+72
+00:05:11,300 --> 00:05:16,400
+Sounds to me like someone's just a wee bit... broke!
+听起来某人只是有点……破产了！
+
+73
+00:05:16,600 --> 00:05:19,800
+Well, Krabs, I guess you've won.
+好吧，蟹老板，我猜你赢了。
+

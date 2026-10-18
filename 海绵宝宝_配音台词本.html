@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>海绵宝宝 英语配音素材 · 台词本</title>
+<style>
+:root{--bg:#faf7f0;--paper:#fffdf8;--ink:#22201c;--sub:#7a736a;--line:#e6dfd2;--accent:#f2c14e;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,"Segoe UI",sans-serif;
+line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:48px 28px 80px}
+header.hero{position:relative;background:linear-gradient(135deg,#fff8e1 0%,#ffe9c7 45%,#ffd9c9 100%);
+border-radius:24px;padding:40px 44px;overflow:hidden;box-shadow:0 12px 40px rgba(180,140,60,.12)}
+.hero::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;
+background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.85),rgba(255,255,255,0) 70%)}
+.kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#9a7b2e;font-weight:700}
+h1{font-size:40px;line-height:1.2;margin:10px 0 8px;letter-spacing:-.02em}
+.sub{color:#6b5a38;font-size:15px;max-width:640px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.meta span{background:rgba(255,255,255,.72);border:1px solid rgba(180,140,60,.25);
+padding:6px 12px;border-radius:999px;font-size:13px;color:#6b5a38}
+section{margin-top:44px}
+h2{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--sub);
+margin:0 0 16px;display:flex;align-items:center;gap:10px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.role-card{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);
+border-radius:14px;padding:16px 18px}
+.rc-top{display:flex;align-items:center;gap:8px;font-size:14px;flex-wrap:wrap}
+.rc-top b{white-space:nowrap}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block;flex:none}
+.rc-en{color:var(--sub);font-size:11.5px;width:100%;margin-left:19px;margin-top:-4px;letter-spacing:.02em}
+.rc-num{font-size:34px;font-weight:700;margin-top:10px;color:var(--ink);font-variant-numeric:tabular-nums}
+.rc-num small{font-size:13px;font-weight:400;color:var(--sub);margin-left:4px}
+.rc-meta{font-size:12px;color:var(--sub)}
+.tablewrap{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:14px}
+thead th{background:#f6f1e6;text-align:left;font-size:12px;letter-spacing:.08em;color:#7a6a4a;
+padding:12px 14px;font-weight:600;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:2}
+tbody td{padding:11px 14px;border-bottom:1px solid #f0eadf;vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#fffaf0}
+.idx{color:#b9ae9a;font-size:12px;font-variant-numeric:tabular-nums;width:38px}
+.time{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:#6f6555;white-space:nowrap;width:118px}
+.dash{color:#c9bda8;margin:0 2px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:color-mix(in srgb,var(--c) 22%,white);
+color:var(--ink);border:1px solid color-mix(in srgb,var(--c) 45%,white);
+padding:3px 10px;border-radius:999px;font-size:12px;white-space:nowrap;font-weight:600}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.en{font-size:14.5px;line-height:1.55}
+.cn{color:#6f6555;font-size:13px}
+.note{font-size:12px;color:#8a7a5e;background:#fbf6ea;border-radius:6px;padding:2px 7px;display:inline-block}
+.muted{color:#c9bda8;background:none}
+.role-block{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px 26px;margin-bottom:18px}
+.role-block h3{margin:0 0 14px;font-size:17px;display:flex;align-items:center;gap:10px;
+padding-bottom:12px;border-bottom:1px dashed var(--line)}
+.rs-en{color:var(--sub);font-weight:400;font-size:13px}
+.rs-n{margin-left:auto;font-size:12px;color:var(--sub);font-weight:400}
+.role-list{list-style:none;padding:0;margin:0}
+.role-list li{display:flex;gap:16px;padding:9px 0;border-bottom:1px dotted #efe8db}
+.role-list li:last-child{border-bottom:none}
+.rt{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#a2957d;width:64px;flex:none;padding-top:3px}
+.re{margin:0;font-size:14.5px}
+.rcn{margin:1px 0 0;font-size:12.5px;color:#7a736a}
+footer{margin-top:56px;color:#a99e8c;font-size:12px;text-align:center;line-height:1.9}
+@media print{
+ body{background:#fff} .wrap{padding:0;max-width:none}
+ header.hero{box-shadow:none;border-radius:0;background:#fff;border-bottom:3px solid var(--accent)}
+ thead th{position:static} tbody tr{break-inside:avoid}
+ .role-block{break-inside:avoid} section{margin-top:26px}
+}
+@media(max-width:720px){
+ h1{font-size:28px} .wrap{padding:24px 14px 48px} header.hero{padding:28px 22px}
+ .tablewrap{overflow-x:auto} table{min-width:760px} .note{display:none}
+}
+</style></head>
+<body><div class="wrap">
+<header class="hero">
+<div class="kicker">Dubbing Script · 配音台词本</div>
+<h1>海绵宝宝：海绵出水</h1>
+<div class="sub">英语配音素材 · 4 人版 —— 蟹堡王保卫战片段，从蟹老板存保险箱到痞老板耗尽最后一块钱。</div>
+<div class="meta"><span>BV1LF411L7TG</span><span>片长 05:19</span><span>1920×1080</span><span>73 句台词</span><span>4 人主配 + 2 人兼配</span></div>
+</header>
+
+<section><h2>角色与戏量</h2><div class="roles"><div class="role-card" style="--c:#F2C14E;--ink:#5A4300">
+<div class="rc-top"><span class="dot"></span><b>海绵宝宝</b><span class="rc-en">SpongeBob</span></div>
+<div class="rc-num">21<small>句</small></div>
+<div class="rc-meta">45s · 91 词 · 主配</div>
+</div><div class="role-card" style="--c:#E88BA8;--ink:#5C1F32">
+<div class="rc-top"><span class="dot"></span><b>派大星</b><span class="rc-en">Patrick</span></div>
+<div class="rc-num">13<small>句</small></div>
+<div class="rc-meta">35s · 66 词 · 主配</div>
+</div><div class="role-card" style="--c:#D9534F;--ink:#4A1210">
+<div class="rc-top"><span class="dot"></span><b>蟹老板</b><span class="rc-en">Mr. Krabs</span></div>
+<div class="rc-num">13<small>句</small></div>
+<div class="rc-meta">27s · 56 词 · 主配</div>
+</div><div class="role-card" style="--c:#5FA86B;--ink:#12351A">
+<div class="rc-top"><span class="dot"></span><b>痞老板</b><span class="rc-en">Plankton</span></div>
+<div class="rc-num">19<small>句</small></div>
+<div class="rc-meta">49s · 124 词 · 主配</div>
+</div><div class="role-card" style="--c:#C89A5B;--ink:#3E2A0E">
+<div class="rc-top"><span class="dot"></span><b>桑迪</b><span class="rc-en">Sandy</span></div>
+<div class="rc-num">3<small>句</small></div>
+<div class="rc-meta">9s · 20 词 · 兼配</div>
+</div><div class="role-card" style="--c:#8A97A6;--ink:#1F2933">
+<div class="rc-top"><span class="dot"></span><b>桑德斯</b><span class="rc-en">Sandals</span></div>
+<div class="rc-num">4<small>句</small></div>
+<div class="rc-meta">9s · 12 词 · 兼配</div>
+</div></div></section>
+
+<section><h2>全片台词（按时间顺序）</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>#</th><th>时间码</th><th>角色</th><th>English</th><th>中文</th><th>备注</th></tr></thead>
+<tbody><tr data-role="派大星">
+<td class="idx">01</td>
+<td class="time">00:01.10<span class="dash">–</span>00:03.00</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Good morning, SpongeBob!</td>
+<td class="cn">早上好，海绵宝宝！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">02</td>
+<td class="time">00:03.10<span class="dash">–</span>00:03.90</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Morning, Patrick!</td>
+<td class="cn">早上好，派大星！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">03</td>
+<td class="time">00:04.20<span class="dash">–</span>00:05.80</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">You here for your pre-lunch Krabby Patty?</td>
+<td class="cn">你是来吃午饭前的开胃蟹黄堡吗？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">04</td>
+<td class="time">00:06.10<span class="dash">–</span>00:07.70</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">I&#x27;m getting two today.</td>
+<td class="cn">我今天要两个。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">05</td>
+<td class="time">00:07.90<span class="dash">–</span>00:10.90</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">One for me and one for my friend.</td>
+<td class="cn">一个给我，一个给我朋友。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">06</td>
+<td class="time">00:11.10<span class="dash">–</span>00:13.00</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Oh, have I met this friend?</td>
+<td class="cn">哦，我见过这位朋友吗？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">07</td>
+<td class="time">00:13.20<span class="dash">–</span>00:14.90</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">You know me, SpongeBob.</td>
+<td class="cn">你认识我啊，海绵宝宝。</td>
+<td class="nt"><span class="note">派大星用肚子假装“朋友”在说话</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">08</td>
+<td class="time">00:17.40<span class="dash">–</span>00:19.30</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Enjoy, Patrick&#x27;s tummy.</td>
+<td class="cn">好好享用吧，派大星的肚子。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">09</td>
+<td class="time">00:31.90<span class="dash">–</span>00:33.50</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Thirteen, fourteen, fifteen...</td>
+<td class="cn">十三、十四、十五……</td>
+<td class="nt"><span class="note">蟹老板在数进店的顾客</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">10</td>
+<td class="time">00:33.60<span class="dash">–</span>00:36.80</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Hey, Mr. Krabs, I thought we got our tartar sauce delivery on Thursday.</td>
+<td class="cn">嘿，蟹老板，我记得塔塔酱是周四送货吧？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">11</td>
+<td class="time">00:36.90<span class="dash">–</span>00:38.90</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Tartar...</td>
+<td class="cn">塔塔……</td>
+<td class="nt"><span class="note">话音未落，巨型塔塔酱罐砸下</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">12</td>
+<td class="time">00:39.40<span class="dash">–</span>00:40.10</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Sauce?</td>
+<td class="cn">……酱？</td>
+<td class="nt"><span class="note">被塔塔酱糊了一脸</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">13</td>
+<td class="time">00:40.30<span class="dash">–</span>00:41.40</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Bull&#x27;s-eye!</td>
+<td class="cn">正中靶心！</td>
+<td class="nt"><span class="note">痞老板驾驶轰炸机</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">14</td>
+<td class="time">00:44.60<span class="dash">–</span>00:45.60</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Plankton!</td>
+<td class="cn">痞老板！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">15</td>
+<td class="time">00:46.60<span class="dash">–</span>00:48.90</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">So it&#x27;s a food fight he wants, eh?</td>
+<td class="cn">这么说他是想打一场食物仗，是吧？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">16</td>
+<td class="time">00:49.10<span class="dash">–</span>00:50.90</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Welcome to Air Plankton.</td>
+<td class="cn">欢迎乘坐“痞老板航空”。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">17</td>
+<td class="time">00:51.10<span class="dash">–</span>00:55.60</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Please put your seat backs and tray tables up as we&#x27;re now approaching our final destination.</td>
+<td class="cn">请收起座椅靠背和小桌板，我们即将抵达最终目的地。</td>
+<td class="nt"><span class="note">模仿飞机广播腔</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">18</td>
+<td class="time">00:56.40<span class="dash">–</span>01:01.60</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Okay, Patrick, load the potatoes!</td>
+<td class="cn">好了派大星，装土豆！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">19</td>
+<td class="time">01:02.60<span class="dash">–</span>01:04.00</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Mashed or scalloped, sir?</td>
+<td class="cn">要土豆泥还是土豆片，长官？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">20</td>
+<td class="time">01:04.10<span class="dash">–</span>01:05.70</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">No, Patrick. Raw.</td>
+<td class="cn">不，派大星。生的。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">21</td>
+<td class="time">01:06.00<span class="dash">–</span>01:06.90</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Yes, sir!</td>
+<td class="cn">是，长官！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">22</td>
+<td class="time">01:08.10<span class="dash">–</span>01:09.40</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Locked and loaded!</td>
+<td class="cn">装填完毕！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">23</td>
+<td class="time">01:10.60<span class="dash">–</span>01:15.20</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Don&#x27;t worry, little formula, you&#x27;ll be safe in this, uh, safe.</td>
+<td class="cn">别担心，小配方，你在这个……呃……保险箱里很安全。</td>
+<td class="nt"><span class="note">formula 故意说成 formuler，是蟹老板的口音梗</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">24</td>
+<td class="time">01:17.40<span class="dash">–</span>01:18.20</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Fire!</td>
+<td class="cn">开火！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">25</td>
+<td class="time">01:21.90<span class="dash">–</span>01:23.10</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Potatoes?</td>
+<td class="cn">土豆？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">26</td>
+<td class="time">01:25.40<span class="dash">–</span>01:26.20</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">He&#x27;s closing in!</td>
+<td class="cn">他逼近了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">27</td>
+<td class="time">01:27.00<span class="dash">–</span>01:29.60</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">I think we have a few minutes before he gets here.</td>
+<td class="cn">我看还有几分钟他才会到。</td>
+<td class="nt"><span class="note">派大星把望远镜拿反了</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">28</td>
+<td class="time">01:31.50<span class="dash">–</span>01:32.70</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">He&#x27;s right on top of us!</td>
+<td class="cn">他已经到头顶了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="桑德斯">
+<td class="idx">29</td>
+<td class="time">01:37.00<span class="dash">–</span>01:39.60</td>
+<td><span class="chip" style="--c:#8A97A6;--ink:#1F2933">桑德斯</span></td>
+<td class="en">Hey, it&#x27;s raining fries!</td>
+<td class="cn">嘿，下薯条了！</td>
+<td class="nt"><span class="note">路人角色（冲浪鱼）</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">30</td>
+<td class="time">01:40.10<span class="dash">–</span>01:43.60</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">It&#x27;s gonna take a lot more than potatoes to bring this baby down!</td>
+<td class="cn">这点土豆可打不下我这架宝贝飞机！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">31</td>
+<td class="time">01:46.40<span class="dash">–</span>01:47.80</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Or maybe not.</td>
+<td class="cn">呃……好像也不一定。</td>
+<td class="nt"><span class="note">飞机被土豆击落</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">32</td>
+<td class="time">01:53.50<span class="dash">–</span>01:56.80</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Wait a minute, Patrick. Look! He&#x27;s got a tank!</td>
+<td class="cn">等等，派大星，你看！他有坦克！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">33</td>
+<td class="time">02:02.00<span class="dash">–</span>02:05.80</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Well, Krabs, you&#x27;re certainly in a pickle now!</td>
+<td class="cn">怎么样蟹老板，你现在可真是“泡”在酸黄瓜里了！</td>
+<td class="nt"><span class="note">in a pickle 双关：陷入困境 / 酸黄瓜</span></td>
+</tr><tr data-role="桑德斯">
+<td class="idx">34</td>
+<td class="time">02:16.50<span class="dash">–</span>02:18.90</td>
+<td><span class="chip" style="--c:#8A97A6;--ink:#1F2933">桑德斯</span></td>
+<td class="en">Hey, it&#x27;s raining pickles!</td>
+<td class="cn">嘿，下酸黄瓜了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="桑德斯">
+<td class="idx">35</td>
+<td class="time">02:20.00<span class="dash">–</span>02:23.00</td>
+<td><span class="chip" style="--c:#8A97A6;--ink:#1F2933">桑德斯</span></td>
+<td class="en">Now it&#x27;s raining...</td>
+<td class="cn">现在下的是……</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="桑德斯">
+<td class="idx">36</td>
+<td class="time">02:23.10<span class="dash">–</span>02:24.20</td>
+<td><span class="chip" style="--c:#8A97A6;--ink:#1F2933">桑德斯</span></td>
+<td class="en">Tanks.</td>
+<td class="cn">……坦克。</td>
+<td class="nt"><span class="note">坦克正好砸在他身上</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">37</td>
+<td class="time">02:24.60<span class="dash">–</span>02:25.70</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">You&#x27;re welcome!</td>
+<td class="cn">不用谢！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">38</td>
+<td class="time">02:29.40<span class="dash">–</span>02:30.50</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Finland.</td>
+<td class="cn">芬兰。</td>
+<td class="nt"><span class="note">无厘头台词，配音时保持一本正经</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">39</td>
+<td class="time">02:35.30<span class="dash">–</span>02:36.60</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Your order, sir!</td>
+<td class="cn">您的订单，长官！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="桑迪">
+<td class="idx">40</td>
+<td class="time">02:36.70<span class="dash">–</span>02:41.60</td>
+<td><span class="chip" style="--c:#C89A5B;--ink:#3E2A0E">桑迪</span></td>
+<td class="en">I&#x27;ll have two Krabby Patties—extra ketchup, extra mustard, and hold the mayo.</td>
+<td class="cn">我要两个蟹黄堡——多加番茄酱、多加芥末，不要蛋黄酱。</td>
+<td class="nt"><span class="note">桑迪在得来速点单</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">41</td>
+<td class="time">02:41.80<span class="dash">–</span>02:42.80</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Wrong channel!</td>
+<td class="cn">打错频道了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">42</td>
+<td class="time">02:43.30<span class="dash">–</span>02:44.50</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Your order, sir!</td>
+<td class="cn">您的订单，长官！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">43</td>
+<td class="time">02:44.60<span class="dash">–</span>02:47.80</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Extra ketchup! Extra mustard! Hold the mayo!</td>
+<td class="cn">多加番茄酱！多加芥末！不要蛋黄酱！</td>
+<td class="nt"><span class="note">hold the mayo 双关：不要蛋黄酱 / 抱住蛋黄酱</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">44</td>
+<td class="time">02:48.40<span class="dash">–</span>02:49.40</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Yes, sir!</td>
+<td class="cn">是，长官！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">45</td>
+<td class="time">02:49.80<span class="dash">–</span>02:52.30</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Extra ketchup! Extra mustard!</td>
+<td class="cn">多加番茄酱！多加芥末！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">46</td>
+<td class="time">02:53.00<span class="dash">–</span>02:54.90</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Hold the mayo!</td>
+<td class="cn">抱住蛋黄酱！</td>
+<td class="nt"><span class="note">派大星真的举起巨型蛋黄酱罐</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">47</td>
+<td class="time">02:56.20<span class="dash">–</span>02:58.30</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Unleash the condiments!</td>
+<td class="cn">释放调料！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">48</td>
+<td class="time">02:58.40<span class="dash">–</span>03:00.00</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">With relish!</td>
+<td class="cn">再加点调味酱！</td>
+<td class="nt"><span class="note">relish 双关：津津有味 / 酸黄瓜酱</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">49</td>
+<td class="time">03:08.80<span class="dash">–</span>03:10.70</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Excuse me!</td>
+<td class="cn">不好意思！</td>
+<td class="nt"><span class="note">挤酱瓶空了的拟音梗</span></td>
+</tr><tr data-role="桑迪">
+<td class="idx">50</td>
+<td class="time">03:18.50<span class="dash">–</span>03:20.60</td>
+<td><span class="chip" style="--c:#C89A5B;--ink:#3E2A0E">桑迪</span></td>
+<td class="en">Hello? Hello?</td>
+<td class="cn">喂？喂？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="桑迪">
+<td class="idx">51</td>
+<td class="time">03:21.00<span class="dash">–</span>03:22.60</td>
+<td><span class="chip" style="--c:#C89A5B;--ink:#3E2A0E">桑迪</span></td>
+<td class="en">Guess y&#x27;all don&#x27;t want my money.</td>
+<td class="cn">看来你们不想要我的钱啊。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">52</td>
+<td class="time">03:22.70<span class="dash">–</span>03:23.20</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Money?</td>
+<td class="cn">钱？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">53</td>
+<td class="time">03:23.40<span class="dash">–</span>03:24.60</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Thank you! Come again!</td>
+<td class="cn">谢谢！欢迎再来！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">54</td>
+<td class="time">03:31.00<span class="dash">–</span>03:34.10</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">I can&#x27;t hold the mayo any longer!</td>
+<td class="cn">我快抱不住这罐蛋黄酱了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">55</td>
+<td class="time">03:39.50<span class="dash">–</span>03:43.20</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Mayo? Well, it&#x27;s going to take a lot more than mayo to stop—</td>
+<td class="cn">蛋黄酱？哼，这点蛋黄酱可拦不住——</td>
+<td class="nt"><span class="note">话没说完坦克就撞进蛋黄酱</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">56</td>
+<td class="time">03:46.40<span class="dash">–</span>03:49.00</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Now what?</td>
+<td class="cn">现在怎么办？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="派大星">
+<td class="idx">57</td>
+<td class="time">03:50.10<span class="dash">–</span>04:03.60</td>
+<td><span class="chip" style="--c:#E88BA8;--ink:#5C1F32">派大星</span></td>
+<td class="en">Uhh... I just remembered! I don&#x27;t work for Mr. Krabs.</td>
+<td class="cn">呃……我想起来了！我不给蟹老板打工了。</td>
+<td class="nt"><span class="note">临阵脱逃</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">58</td>
+<td class="time">04:04.30<span class="dash">–</span>04:10.20</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Robot! Robot! ROBOT! GIANT ROBOT! Robot! Robot!</td>
+<td class="cn">机器人！机器人！机器人！巨型机器人！机器人！机器人！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">59</td>
+<td class="time">04:10.40<span class="dash">–</span>04:14.20</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Mr. Krabs! Plankton&#x27;s here and he&#x27;s got a giant robot!</td>
+<td class="cn">蟹老板！痞老板来了，他还有个巨型机器人！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">60</td>
+<td class="time">04:14.40<span class="dash">–</span>04:15.80</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Quick, boy! Bar the door!</td>
+<td class="cn">快，孩子！把门堵上！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="海绵宝宝">
+<td class="idx">61</td>
+<td class="time">04:16.40<span class="dash">–</span>04:17.30</td>
+<td><span class="chip" style="--c:#F2C14E;--ink:#5A4300">海绵宝宝</span></td>
+<td class="en">Got it!</td>
+<td class="cn">堵好了！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">62</td>
+<td class="time">04:27.30<span class="dash">–</span>04:31.40</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">I&#x27;ll take one secret formula... to go.</td>
+<td class="cn">我要一份秘方……打包带走。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">63</td>
+<td class="time">04:43.50<span class="dash">–</span>04:45.50</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Oh, barnacles! I&#x27;m out of gas?</td>
+<td class="cn">哦，糟了！我没油了？</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">64</td>
+<td class="time">04:48.10<span class="dash">–</span>04:50.00</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Well, I&#x27;m not through yet.</td>
+<td class="cn">我还没完呢。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">65</td>
+<td class="time">04:50.10<span class="dash">–</span>04:53.40</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">I&#x27;ve got something that will make you hand over that formula.</td>
+<td class="cn">我有样东西能让你乖乖交出配方。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">66</td>
+<td class="time">04:54.00<span class="dash">–</span>04:56.20</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Something you can&#x27;t resist.</td>
+<td class="cn">一样你无法抗拒的东西。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">67</td>
+<td class="time">04:58.60<span class="dash">–</span>04:59.60</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Money!</td>
+<td class="cn">钱！</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">68</td>
+<td class="time">04:59.80<span class="dash">–</span>05:00.80</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Yes.</td>
+<td class="cn">没错。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">69</td>
+<td class="time">05:01.10<span class="dash">–</span>05:03.80</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">That&#x27;s... that&#x27;s... that&#x27;s impossible!</td>
+<td class="cn">这……这……这不可能！</td>
+<td class="nt"><span class="note">钱包是空的</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">70</td>
+<td class="time">05:04.60<span class="dash">–</span>05:07.60</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Well, it was full of money just last week.</td>
+<td class="cn">呃，上周里面还装满了钱呢。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">71</td>
+<td class="time">05:08.00<span class="dash">–</span>05:11.20</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">And then I bought that airplane and built that tank—</td>
+<td class="cn">然后我买了那架飞机，还造了那辆坦克——</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr><tr data-role="蟹老板">
+<td class="idx">72</td>
+<td class="time">05:11.30<span class="dash">–</span>05:16.40</td>
+<td><span class="chip" style="--c:#D9534F;--ink:#4A1210">蟹老板</span></td>
+<td class="en">Sounds to me like someone&#x27;s just a wee bit... broke!</td>
+<td class="cn">听起来某人只是有点……破产了！</td>
+<td class="nt"><span class="note">broke 双关：破产 / 身无分文</span></td>
+</tr><tr data-role="痞老板">
+<td class="idx">73</td>
+<td class="time">05:16.60<span class="dash">–</span>05:19.80</td>
+<td><span class="chip" style="--c:#5FA86B;--ink:#12351A">痞老板</span></td>
+<td class="en">Well, Krabs, I guess you&#x27;ve won.</td>
+<td class="cn">好吧，蟹老板，我猜你赢了。</td>
+<td class="nt"><span class="note muted">—</span></td>
+</tr></tbody></table></div></section>
+
+<section><h2>分角色台词（各自打印）</h2><section class="role-block" style="--c:#F2C14E;--ink:#5A4300">
+<h3><span class="dot"></span>海绵宝宝 <span class="rs-en">SpongeBob</span><span class="rs-n">21 句</span></h3>
+<ol class="role-list"><li><span class="rt">00:03.10</span><div><p class="re">Morning, Patrick!</p><p class="rcn">早上好，派大星！</p></div></li><li><span class="rt">00:04.20</span><div><p class="re">You here for your pre-lunch Krabby Patty?</p><p class="rcn">你是来吃午饭前的开胃蟹黄堡吗？</p></div></li><li><span class="rt">00:11.10</span><div><p class="re">Oh, have I met this friend?</p><p class="rcn">哦，我见过这位朋友吗？</p></div></li><li><span class="rt">00:17.40</span><div><p class="re">Enjoy, Patrick&#x27;s tummy.</p><p class="rcn">好好享用吧，派大星的肚子。</p></div></li><li><span class="rt">00:33.60</span><div><p class="re">Hey, Mr. Krabs, I thought we got our tartar sauce delivery on Thursday.</p><p class="rcn">嘿，蟹老板，我记得塔塔酱是周四送货吧？</p></div></li><li><span class="rt">00:44.60</span><div><p class="re">Plankton!</p><p class="rcn">痞老板！</p></div></li><li><span class="rt">00:56.40</span><div><p class="re">Okay, Patrick, load the potatoes!</p><p class="rcn">好了派大星，装土豆！</p></div></li><li><span class="rt">01:04.10</span><div><p class="re">No, Patrick. Raw.</p><p class="rcn">不，派大星。生的。</p></div></li><li><span class="rt">01:25.40</span><div><p class="re">He&#x27;s closing in!</p><p class="rcn">他逼近了！</p></div></li><li><span class="rt">01:53.50</span><div><p class="re">Wait a minute, Patrick. Look! He&#x27;s got a tank!</p><p class="rcn">等等，派大星，你看！他有坦克！</p></div></li><li><span class="rt">02:35.30</span><div><p class="re">Your order, sir!</p><p class="rcn">您的订单，长官！</p></div></li><li><span class="rt">02:41.80</span><div><p class="re">Wrong channel!</p><p class="rcn">打错频道了！</p></div></li><li><span class="rt">02:43.30</span><div><p class="re">Your order, sir!</p><p class="rcn">您的订单，长官！</p></div></li><li><span class="rt">02:48.40</span><div><p class="re">Yes, sir!</p><p class="rcn">是，长官！</p></div></li><li><span class="rt">02:49.80</span><div><p class="re">Extra ketchup! Extra mustard!</p><p class="rcn">多加番茄酱！多加芥末！</p></div></li><li><span class="rt">02:58.40</span><div><p class="re">With relish!</p><p class="rcn">再加点调味酱！</p></div></li><li><span class="rt">03:08.80</span><div><p class="re">Excuse me!</p><p class="rcn">不好意思！</p></div></li><li><span class="rt">03:46.40</span><div><p class="re">Now what?</p><p class="rcn">现在怎么办？</p></div></li><li><span class="rt">04:04.30</span><div><p class="re">Robot! Robot! ROBOT! GIANT ROBOT! Robot! Robot!</p><p class="rcn">机器人！机器人！机器人！巨型机器人！机器人！机器人！</p></div></li><li><span class="rt">04:10.40</span><div><p class="re">Mr. Krabs! Plankton&#x27;s here and he&#x27;s got a giant robot!</p><p class="rcn">蟹老板！痞老板来了，他还有个巨型机器人！</p></div></li><li><span class="rt">04:16.40</span><div><p class="re">Got it!</p><p class="rcn">堵好了！</p></div></li></ol></section><section class="role-block" style="--c:#E88BA8;--ink:#5C1F32">
+<h3><span class="dot"></span>派大星 <span class="rs-en">Patrick</span><span class="rs-n">13 句</span></h3>
+<ol class="role-list"><li><span class="rt">00:01.10</span><div><p class="re">Good morning, SpongeBob!</p><p class="rcn">早上好，海绵宝宝！</p></div></li><li><span class="rt">00:06.10</span><div><p class="re">I&#x27;m getting two today.</p><p class="rcn">我今天要两个。</p></div></li><li><span class="rt">00:07.90</span><div><p class="re">One for me and one for my friend.</p><p class="rcn">一个给我，一个给我朋友。</p></div></li><li><span class="rt">00:13.20</span><div><p class="re">You know me, SpongeBob.</p><p class="rcn">你认识我啊，海绵宝宝。</p></div></li><li><span class="rt">01:02.60</span><div><p class="re">Mashed or scalloped, sir?</p><p class="rcn">要土豆泥还是土豆片，长官？</p></div></li><li><span class="rt">01:06.00</span><div><p class="re">Yes, sir!</p><p class="rcn">是，长官！</p></div></li><li><span class="rt">01:08.10</span><div><p class="re">Locked and loaded!</p><p class="rcn">装填完毕！</p></div></li><li><span class="rt">01:27.00</span><div><p class="re">I think we have a few minutes before he gets here.</p><p class="rcn">我看还有几分钟他才会到。</p></div></li><li><span class="rt">01:31.50</span><div><p class="re">He&#x27;s right on top of us!</p><p class="rcn">他已经到头顶了！</p></div></li><li><span class="rt">02:29.40</span><div><p class="re">Finland.</p><p class="rcn">芬兰。</p></div></li><li><span class="rt">02:53.00</span><div><p class="re">Hold the mayo!</p><p class="rcn">抱住蛋黄酱！</p></div></li><li><span class="rt">03:31.00</span><div><p class="re">I can&#x27;t hold the mayo any longer!</p><p class="rcn">我快抱不住这罐蛋黄酱了！</p></div></li><li><span class="rt">03:50.10</span><div><p class="re">Uhh... I just remembered! I don&#x27;t work for Mr. Krabs.</p><p class="rcn">呃……我想起来了！我不给蟹老板打工了。</p></div></li></ol></section><section class="role-block" style="--c:#D9534F;--ink:#4A1210">
+<h3><span class="dot"></span>蟹老板 <span class="rs-en">Mr. Krabs</span><span class="rs-n">13 句</span></h3>
+<ol class="role-list"><li><span class="rt">00:31.90</span><div><p class="re">Thirteen, fourteen, fifteen...</p><p class="rcn">十三、十四、十五……</p></div></li><li><span class="rt">00:36.90</span><div><p class="re">Tartar...</p><p class="rcn">塔塔……</p></div></li><li><span class="rt">00:39.40</span><div><p class="re">Sauce?</p><p class="rcn">……酱？</p></div></li><li><span class="rt">00:46.60</span><div><p class="re">So it&#x27;s a food fight he wants, eh?</p><p class="rcn">这么说他是想打一场食物仗，是吧？</p></div></li><li><span class="rt">01:10.60</span><div><p class="re">Don&#x27;t worry, little formula, you&#x27;ll be safe in this, uh, safe.</p><p class="rcn">别担心，小配方，你在这个……呃……保险箱里很安全。</p></div></li><li><span class="rt">01:17.40</span><div><p class="re">Fire!</p><p class="rcn">开火！</p></div></li><li><span class="rt">02:44.60</span><div><p class="re">Extra ketchup! Extra mustard! Hold the mayo!</p><p class="rcn">多加番茄酱！多加芥末！不要蛋黄酱！</p></div></li><li><span class="rt">02:56.20</span><div><p class="re">Unleash the condiments!</p><p class="rcn">释放调料！</p></div></li><li><span class="rt">03:22.70</span><div><p class="re">Money?</p><p class="rcn">钱？</p></div></li><li><span class="rt">03:23.40</span><div><p class="re">Thank you! Come again!</p><p class="rcn">谢谢！欢迎再来！</p></div></li><li><span class="rt">04:14.40</span><div><p class="re">Quick, boy! Bar the door!</p><p class="rcn">快，孩子！把门堵上！</p></div></li><li><span class="rt">04:58.60</span><div><p class="re">Money!</p><p class="rcn">钱！</p></div></li><li><span class="rt">05:11.30</span><div><p class="re">Sounds to me like someone&#x27;s just a wee bit... broke!</p><p class="rcn">听起来某人只是有点……破产了！</p></div></li></ol></section><section class="role-block" style="--c:#5FA86B;--ink:#12351A">
+<h3><span class="dot"></span>痞老板 <span class="rs-en">Plankton</span><span class="rs-n">19 句</span></h3>
+<ol class="role-list"><li><span class="rt">00:40.30</span><div><p class="re">Bull&#x27;s-eye!</p><p class="rcn">正中靶心！</p></div></li><li><span class="rt">00:49.10</span><div><p class="re">Welcome to Air Plankton.</p><p class="rcn">欢迎乘坐“痞老板航空”。</p></div></li><li><span class="rt">00:51.10</span><div><p class="re">Please put your seat backs and tray tables up as we&#x27;re now approaching our final destination.</p><p class="rcn">请收起座椅靠背和小桌板，我们即将抵达最终目的地。</p></div></li><li><span class="rt">01:21.90</span><div><p class="re">Potatoes?</p><p class="rcn">土豆？</p></div></li><li><span class="rt">01:40.10</span><div><p class="re">It&#x27;s gonna take a lot more than potatoes to bring this baby down!</p><p class="rcn">这点土豆可打不下我这架宝贝飞机！</p></div></li><li><span class="rt">01:46.40</span><div><p class="re">Or maybe not.</p><p class="rcn">呃……好像也不一定。</p></div></li><li><span class="rt">02:02.00</span><div><p class="re">Well, Krabs, you&#x27;re certainly in a pickle now!</p><p class="rcn">怎么样蟹老板，你现在可真是“泡”在酸黄瓜里了！</p></div></li><li><span class="rt">02:24.60</span><div><p class="re">You&#x27;re welcome!</p><p class="rcn">不用谢！</p></div></li><li><span class="rt">03:39.50</span><div><p class="re">Mayo? Well, it&#x27;s going to take a lot more than mayo to stop—</p><p class="rcn">蛋黄酱？哼，这点蛋黄酱可拦不住——</p></div></li><li><span class="rt">04:27.30</span><div><p class="re">I&#x27;ll take one secret formula... to go.</p><p class="rcn">我要一份秘方……打包带走。</p></div></li><li><span class="rt">04:43.50</span><div><p class="re">Oh, barnacles! I&#x27;m out of gas?</p><p class="rcn">哦，糟了！我没油了？</p></div></li><li><span class="rt">04:48.10</span><div><p class="re">Well, I&#x27;m not through yet.</p><p class="rcn">我还没完呢。</p></div></li><li><span class="rt">04:50.10</span><div><p class="re">I&#x27;ve got something that will make you hand over that formula.</p><p class="rcn">我有样东西能让你乖乖交出配方。</p></div></li><li><span class="rt">04:54.00</span><div><p class="re">Something you can&#x27;t resist.</p><p class="rcn">一样你无法抗拒的东西。</p></div></li><li><span class="rt">04:59.80</span><div><p class="re">Yes.</p><p class="rcn">没错。</p></div></li><li><span class="rt">05:01.10</span><div><p class="re">That&#x27;s... that&#x27;s... that&#x27;s impossible!</p><p class="rcn">这……这……这不可能！</p></div></li><li><span class="rt">05:04.60</span><div><p class="re">Well, it was full of money just last week.</p><p class="rcn">呃，上周里面还装满了钱呢。</p></div></li><li><span class="rt">05:08.00</span><div><p class="re">And then I bought that airplane and built that tank—</p><p class="rcn">然后我买了那架飞机，还造了那辆坦克——</p></div></li><li><span class="rt">05:16.60</span><div><p class="re">Well, Krabs, I guess you&#x27;ve won.</p><p class="rcn">好吧，蟹老板，我猜你赢了。</p></div></li></ol></section><section class="role-block" style="--c:#C89A5B;--ink:#3E2A0E">
+<h3><span class="dot"></span>桑迪 <span class="rs-en">Sandy</span><span class="rs-n">3 句</span></h3>
+<ol class="role-list"><li><span class="rt">02:36.70</span><div><p class="re">I&#x27;ll have two Krabby Patties—extra ketchup, extra mustard, and hold the mayo.</p><p class="rcn">我要两个蟹黄堡——多加番茄酱、多加芥末，不要蛋黄酱。</p></div></li><li><span class="rt">03:18.50</span><div><p class="re">Hello? Hello?</p><p class="rcn">喂？喂？</p></div></li><li><span class="rt">03:21.00</span><div><p class="re">Guess y&#x27;all don&#x27;t want my money.</p><p class="rcn">看来你们不想要我的钱啊。</p></div></li></ol></section><section class="role-block" style="--c:#8A97A6;--ink:#1F2933">
+<h3><span class="dot"></span>桑德斯 <span class="rs-en">Sandals</span><span class="rs-n">4 句</span></h3>
+<ol class="role-list"><li><span class="rt">01:37.00</span><div><p class="re">Hey, it&#x27;s raining fries!</p><p class="rcn">嘿，下薯条了！</p></div></li><li><span class="rt">02:16.50</span><div><p class="re">Hey, it&#x27;s raining pickles!</p><p class="rcn">嘿，下酸黄瓜了！</p></div></li><li><span class="rt">02:20.00</span><div><p class="re">Now it&#x27;s raining...</p><p class="rcn">现在下的是……</p></div></li><li><span class="rt">02:23.10</span><div><p class="re">Tanks.</p><p class="rcn">……坦克。</p></div></li></ol></section></section>
+
+<footer>台词以官方剧本为基准，结合画面字幕与语音识别逐句校对。<br>
+时间码为原片时间，可直接对照消音版练习。 · 仅供学习交流使用</footer>
+</div></body></html>
