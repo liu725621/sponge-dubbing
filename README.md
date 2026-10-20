@@ -22,7 +22,7 @@ B 站英语配音练习片段的整理版：原版 + 消音版视频、逐句校
 **视频下载**
 
 - 原版：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.0/spongebob-original.mp4>
-- 消音版：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.0/spongebob-muted.mp4>
+- 消音版（静音 + 无字幕）：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.0/spongebob-muted.mp4>
 
 | 角色 | 英文 | 句数 | 开口时长 | 定位 |
 | --- | --- | ---: | ---: | --- |
@@ -46,7 +46,7 @@ B 站英语配音练习片段的整理版：原版 + 消音版视频、逐句校
 **视频下载**
 
 - 原版：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.1/secret-life-of-pets-original.mp4>
-- 消音版：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.1/secret-life-of-pets-muted.mp4>
+- 消音版（静音 + 保留中英字幕）：<https://github.com/liu725621/sponge-dubbing/releases/download/v1.1/secret-life-of-pets-muted.mp4>
 
 | 角色 | 英文 | 句数 | 开口时长 | 定位 |
 | --- | --- | ---: | ---: | --- |
@@ -68,7 +68,10 @@ B 站英语配音练习片段的整理版：原版 + 消音版视频、逐句校
 
 ## 制作说明
 
-- **视频**：消音版的视频流从原版直接复制，未重新编码，画质与原版完全一致；音轨替换为静音轨（-91 dB）。保留空音轨是为了导入剪映/Premiere 后能直接看到音频轨道。
+- **消音版**：音轨统一为静音（-91 dB），保留空音轨，导入剪映/Premiere 后能直接看到音频轨道。两个片子的字幕处理不同：
+  - 海绵宝宝：中英硬字幕已逐帧修复去除，画面只剩图像。因为要去字幕，视频重新编码过（CRF 19），画质略低于原版；字幕位置在静止画面下能看到轻微涂抹痕迹，正常播放时基本察觉不到。
+  - 爱宠大机密：**保留中英硬字幕**，只做静音。视频流从原版直接复制，未重新编码，画质与原版完全一致。
+- 两个片子顶部的平台水印均保留。
 - **台词**：三路交叉校对 —— ① 画面自带中英硬字幕（OCR 提取并做变化检测）② large-v3 语音识别（校准起止时间）③ 官方电影剧本（校正用词与说话人）。
 - **时间码**：为原片时间，精确到 0.1 秒，可直接对照消音版卡点。
 
